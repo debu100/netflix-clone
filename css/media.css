@@ -1,0 +1,92 @@
+@media (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .banner h1 {
+    font-size: 30px;
+  }
+
+  .banner h3 {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  .banner p {
+    font-size: 17px;
+  }
+
+  .input-1 {
+    padding-right: 20px;
+    margin-top: 30px;
+  }
+
+  .banner-btn1 {
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .features-container,
+  .features-container-dwn,
+  .features-container-watch,
+  .features-container-pro {
+    width: 90%;
+    grid-template-columns: auto;
+    text-align: center;
+  }
+
+  .features-box h2,
+  .features-box-dwn h2,
+  .features-box-watch h2,
+  .features-box-pro h2 {
+    font-size: 25px;
+  }
+
+  .features-box p,
+  .features-box-dwn p,
+  .features-box-watch p,
+  .features-box-pro p {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .dwn-img {
+    grid-column: 1/-1;
+    grid-row: 2/-1;
+  }
+
+  .dwn-con {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+  }
+
+  .block {
+    padding: 20px;
+  }
+
+  #faq h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 30px;
+  }
+
+  .footer-grid {
+    width: 90%;
+    grid-template-columns: auto auto;
+  }
+}
